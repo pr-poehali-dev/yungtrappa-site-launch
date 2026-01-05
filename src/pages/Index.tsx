@@ -4,11 +4,11 @@ import Icon from "@/components/ui/icon";
 
 export default function Index() {
   const tracks = [
-    { title: "Трапанём", plays: "2.1M", year: "2018" },
-    { title: "Маминой кредиткой", plays: "1.8M", year: "2018" },
-    { title: "Drip", plays: "1.5M", year: "2019" },
-    { title: "Витя", plays: "1.2M", year: "2019" },
-    { title: "Жопа рядом", plays: "900K", year: "2018" },
+    { title: "Jessie Pinkman", plays: "3.5M", year: "2012" },
+    { title: "Jessie Pinkman 2", plays: "2.8M", year: "2014" },
+    { title: "Walter White встречает Jessie Pinkman", plays: "2.1M", year: "2015" },
+    { title: "Yung Treezy Crazy", plays: "1.2M", year: "2011" },
+    { title: "2Stoopid", plays: "950K", year: "2012" },
   ];
 
   const photos = [
@@ -42,10 +42,10 @@ export default function Index() {
           </h1>
           <div className="h-1 w-64 mx-auto red-gradient mb-8 rounded-full"></div>
           <p className="text-2xl md:text-3xl text-red-500 font-medium mb-4">
-            Илья Ильин
+            Владислав Ширяев
           </p>
           <p className="text-xl text-gray-400 mb-12">
-            27.09.1999 — 10.12.2020
+            14.08.1995 — 02.02.2023
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
             <Button 
@@ -86,7 +86,7 @@ export default function Index() {
           <Card className="bg-black/60 border-red-900 p-8 md:p-12 backdrop-blur-sm">
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
-                <span className="text-red-500 font-bold text-2xl">Yung Trappa</span> (настоящее имя — <span className="text-white font-semibold">Илья Ильин</span>) родился 27 сентября 1999 года в Москве. Он стал одним из самых ярких представителей российской трэп-сцены, известным своим уникальным стилем и провокационными текстами.
+                <span className="text-red-500 font-bold text-2xl">Yung Trappa</span> (настоящее имя — <span className="text-white font-semibold">Владислав Олегович Ширяев</span>) родился 14 августа 1995 года в Санкт-Петербурге. Он стал одним из самых влиятельных артистов на российской рэп-сцене.
               </p>
               
               <div className="border-l-4 border-red-600 pl-6 my-8">
@@ -96,7 +96,7 @@ export default function Index() {
               </div>
 
               <p>
-                Карьера артиста началась в 2017 году с выпуска первых треков на SoundCloud. Его прорывными композициями стали <span className="text-red-400 font-semibold">"Трапанём"</span> и <span className="text-red-400 font-semibold">"Маминой кредиткой"</span>, которые мгновенно разлетелись по социальным сетям и набрали миллионы прослушиваний.
+                Заниматься рэпом начал в 11 лет под псевдонимом <span className="text-red-400 font-semibold">МС Компактный</span>. В школьном возрасте Владислав увлёкся южным рэпом и влился в питерскую тусовку <span className="text-red-400 font-semibold">Swagga Music</span>, при поддержке которой выпустил свои первые микстейпы. Музыку писал под вдохновением Gucci Mane и Lil Wayne.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 my-8">
@@ -106,9 +106,9 @@ export default function Index() {
                     Достижения
                   </h3>
                   <ul className="space-y-2 text-gray-300">
-                    <li>• Более 10 млн прослушиваний на стриминговых платформах</li>
-                    <li>• Культовый статус в российском трэп-андеграунде</li>
-                    <li>• Сотрудничество с ведущими продюсерами сцены</li>
+                    <li>• Альбомы: Jessie Pinkman (2012), Jessie Pinkman 2 (2014)</li>
+                    <li>• Участие в Versus Battle вместе с Федуком (2014)</li>
+                    <li>• Создал объединение Yung Murda Boyz</li>
                   </ul>
                 </div>
 
@@ -118,19 +118,19 @@ export default function Index() {
                     Стиль
                   </h3>
                   <ul className="space-y-2 text-gray-300">
-                    <li>• Агрессивная подача и уникальный флоу</li>
-                    <li>• Провокационные и честные тексты</li>
-                    <li>• Мемная культура и интернет-эстетика</li>
+                    <li>• Южный рэп и трэп</li>
+                    <li>• Импровизация при записи песен</li>
+                    <li>• Влияние питерской рэп-сцены</li>
                   </ul>
                 </div>
               </div>
 
               <p>
-                Yung Trappa не боялся экспериментировать, создавая музыку на стыке трэпа, клауд-рэпа и интернет-культуры. Его творчество стало голосом молодёжи, которая искала в музыке искренность и свободу самовыражения.
+                В 2012 году выходит альбом <span className="text-red-400 font-semibold">Jessie Pinkman</span>, в 2014 — <span className="text-red-400 font-semibold">Jessie Pinkman 2</span>. Последним его релизом стал совместный альбом с Sil-A <span className="text-red-400 font-semibold">Walter White встречает Jessie Pinkman</span> 2015 года. Yung Trappa перенял творческий подход у Lil Wayne — импровизацию при записи песен.
               </p>
 
               <p className="text-center text-gray-500 mt-8 text-xl">
-                10 декабря 2020 года Илья Ильин ушёл из жизни, оставив после себя яркое музыкальное наследие, которое продолжает вдохновлять тысячи поклонников.
+                2 февраля 2023 года Владислав Ширяев ушёл из жизни в Санкт-Петербурге, оставив после себя яркое музыкальное наследие, которое продолжает вдохновлять тысячи поклонников.
               </p>
             </div>
           </Card>
@@ -255,7 +255,7 @@ export default function Index() {
           <div className="mb-6">
             <div className="text-6xl mb-4">💀</div>
             <h3 className="text-3xl font-bold text-white mb-2">YUNG TRAPPA</h3>
-            <p className="text-red-500">1999 - 2020</p>
+            <p className="text-red-500">1995 - 2023</p>
           </div>
           <p className="text-gray-500">
             Память живёт в музыке
