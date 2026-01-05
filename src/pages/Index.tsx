@@ -12,7 +12,9 @@ export default function Index() {
   ];
 
   const photos = [
-    "https://cdn.poehali.dev/projects/3efc14f3-fcea-4d51-8105-2bafce0a5cb4/files/69604207-0a33-4a50-9eb6-f0677a0d3dfd.jpg",
+    "https://cdn.poehali.dev/files/photo_2024-06-04_20-40-06.jpg",
+    "https://cdn.poehali.dev/files/photo_2024-05-19_01-57-08.jpg",
+    "https://cdn.poehali.dev/files/photo_2025-04-10_21-04-33.jpg",
   ];
 
   return (
@@ -234,7 +236,7 @@ export default function Index() {
               </h3>
               <div className="space-y-4">
                 <Button 
-                  onClick={() => window.open('https://t.me/funnymindset', '_blank')}
+                  onClick={() => window.open('https://t.me/yungtrappalore', '_blank')}
                   className="w-full red-gradient text-white text-lg py-6 hover:shadow-lg hover:shadow-red-600/50 transition-all"
                 >
                   <Icon name="MessageCircle" size={20} className="mr-2" />
